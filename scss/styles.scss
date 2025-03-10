@@ -20,6 +20,27 @@
     max-width: 1040px;
 }
 
+.download {
+    background: url('../images/download-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.fab.fa-twitter{
+	font-family:sans-serif;
+}
+.fab.fa-twitter::before{
+	content:"𝕏";
+	font-size:1em;
+}
+
+.map iframe {
+    left: 0;
+    top:0;
+    height: 400px;
+    width: 100%;
+    border: none;
+}
+
 @media(max-width: 100px) {
     .hero .image-container {
         display: flex;
